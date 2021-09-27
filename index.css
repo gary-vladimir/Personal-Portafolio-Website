@@ -14,18 +14,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about {
+.section {
     height: 100vh;
     background: linear-gradient(180deg, #151361 0%, #110945 100%);
 }
 .blur {
     position: absolute;
-    bottom: -5vh;
     height: 10vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.01);
     /* difuminado */
-
     backdrop-filter: blur(20px);
     /* Note: backdrop-filter has minimal browser support */
+}
+#blur1 {
+    bottom: -5vh;
+}
+#blur2 {
+    bottom: -105vh;
+}
+#blur3 {
+    bottom: -205vh;
+}
+#blur4 {
+    bottom: -305vh;
 }
