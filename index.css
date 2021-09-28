@@ -46,7 +46,7 @@ body {
     margin: 0;
     position: absolute;
     left: 10vw;
-    top: 25vh;
+    top: 23vh;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -90,6 +90,7 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    transition: 0.3s;
 }
 #viewWorkbtn > div {
     margin-right: 15px;
@@ -101,4 +102,11 @@ p {
 }
 #viewWorkbtn > i {
     font-size: 25px;
+}
+#viewWorkbtn:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #ffdd35 0%, #ff9d41 100%);
+    border: 0px;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
