@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero {
     /* The image used */
     background-image: url('./images/fondoanimado.svg');
@@ -109,4 +113,32 @@ p {
     border: 0px;
     color: #000000;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 18px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    font-weight: normal;
+    color: white;
+}
+#contactBtn {
+    background: linear-gradient(90deg, #2132ce 0%, #4095d2 100%);
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
