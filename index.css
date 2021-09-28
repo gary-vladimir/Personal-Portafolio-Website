@@ -116,6 +116,7 @@ p {
 }
 a {
     text-decoration: none;
+    line-height: 30px;
 }
 
 nav {
