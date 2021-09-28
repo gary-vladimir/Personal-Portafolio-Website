@@ -143,3 +143,21 @@ a {
     align-items: center;
     justify-content: center;
 }
+section > h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #ffffff;
+    margin-top: 60px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: hsla(0, 0%, 100%, 0.5);
+    text-decoration-thickness: 5px;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
