@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
 body {
     margin: 0;
 }
@@ -38,4 +40,65 @@ body {
 }
 #blur4 {
     bottom: -305vh;
+}
+
+#title {
+    margin: 0;
+    position: absolute;
+    left: 10vw;
+    top: 25vh;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+}
+p {
+    margin: 0;
+}
+#hello {
+    background: #ffdd63;
+    background: -webkit-linear-gradient(to bottom, #ffdd63 0%, #ffffff 100%);
+    background: -moz-linear-gradient(to bottom, #ffdd63 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #ffdd63 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#name {
+    color: white;
+}
+#position {
+    color: #589bff;
+}
+#description {
+    margin-top: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #ffffff;
+    width: 580px;
+}
+#viewWorkbtn {
+    margin-top: 20px;
+    position: relative;
+    color: white;
+    display: flex;
+    border: 1px solid white;
+    width: 210px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#viewWorkbtn > div {
+    margin-right: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+#viewWorkbtn > i {
+    font-size: 25px;
 }
