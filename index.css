@@ -159,5 +159,24 @@ section > h1 {
 }
 section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+section > h3 {
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    width: 650px;
+    text-align: center;
+    margin-bottom: 0px;
+
+    background: #adbfff;
+    background: -webkit-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
+    background: -moz-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
+    background: linear-gradient(to bottom, #adbfff 0%, #92aaff65 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
