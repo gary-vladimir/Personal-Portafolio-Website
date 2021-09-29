@@ -180,3 +180,41 @@ section > h3 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.logo {
+    width: 70vw;
+}
+
+.project {
+    width: 31%;
+    height: 45%;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    background-size: cover;
+}
+.grid {
+    width: 120vh;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#one {
+    background-image: url('./images/project1Thumbnail.jpg');
+}
+#two {
+    background-image: url('./images/project2Thumbnail.jpg');
+}
+#three {
+    background-image: url('./images/project3Thumbnail.jpg');
+}
+#four {
+    background-image: url('./images/project4Thumbnail.jpg');
+}
+#five {
+    background-image: url('./images/project5Thumbnail.jpg');
+}
+#six {
+    background-image: url('./images/project6Thumbnail.png');
+}
