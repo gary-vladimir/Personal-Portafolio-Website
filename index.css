@@ -269,9 +269,46 @@ section > h3 {
     bottom: 35%;
 }
 /*ipad pro*/
-@media (max-width: 1582px) {
+@media (max-width: 1630px) {
     .grid {
         width: 85vh;
         height: 70vh;
+    }
+}
+
+@media (max-width: 1300px) {
+    .grid {
+        width: 85vh;
+        height: 70vh;
+    }
+    #cb,
+    #cg,
+    #tp3,
+    #tp2 {
+        display: none;
+    }
+}
+@media (max-width: 1250px) {
+    .grid {
+        width: 50vh;
+        height: 72vh;
+    }
+    .project {
+        width: 48%;
+        height: 31%;
+    }
+}
+@media (max-width: 1024px) {
+    #tp1 {
+        right: -150px;
+    }
+}
+@media (max-width: 900px) {
+    #tp1,
+    #rb2,
+    #cp1,
+    #tr,
+    #cp2 {
+        display: none;
     }
 }
