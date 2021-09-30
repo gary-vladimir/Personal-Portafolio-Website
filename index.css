@@ -312,3 +312,8 @@ section > h3 {
         display: none;
     }
 }
+@media (max-width: 730px) {
+    section > h3 {
+        width: 80%;
+    }
+}
