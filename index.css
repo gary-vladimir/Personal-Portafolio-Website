@@ -268,3 +268,10 @@ section > h3 {
     left: -200px;
     bottom: 35%;
 }
+/*ipad pro*/
+@media (max-width: 1582px) {
+    .grid {
+        width: 85vh;
+        height: 70vh;
+    }
+}
