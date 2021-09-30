@@ -23,6 +23,10 @@ html {
 .section {
     height: 100vh;
     background: linear-gradient(180deg, #151361 0%, #110945 100%);
+    background-image: url('./images/sectionsBackground.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .blur {
     position: absolute;
@@ -191,6 +195,7 @@ section > h3 {
     border-radius: 5px;
 
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 .grid {
     width: 120vh;
