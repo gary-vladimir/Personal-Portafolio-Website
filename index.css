@@ -366,7 +366,7 @@ section > h3 {
         line-height: 5vw;
     }
     #About > h3 {
-        font-size: 5vw;
+        font-size: 20px;
     }
 }
 @media (max-width: 500px) {
@@ -388,6 +388,17 @@ section > h3 {
 @media (max-width: 376px) {
     .grid {
         width: 40vh;
-        height: 75vh;
+        height: 70vh;
+    }
+}
+@media (max-width: 290px) {
+    nav {
+        width: 280px;
+    }
+    #description {
+        width: 275px;
+    }
+    #About > h3 {
+        font-size: 15px;
     }
 }
