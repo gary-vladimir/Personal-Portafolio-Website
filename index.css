@@ -58,7 +58,6 @@ p {
     margin: 0;
 }
 #hello {
-    background: #ffdd63;
     background: -webkit-linear-gradient(to bottom, #ffdd63 0%, #ffffff 100%);
     background: -moz-linear-gradient(to bottom, #ffdd63 0%, #ffffff 100%);
     background: linear-gradient(to bottom, #ffdd63 0%, #ffffff 100%);
@@ -371,6 +370,12 @@ section > h3 {
     }
 }
 @media (max-width: 500px) {
+    #hello {
+        color: #ffdd35;
+        background: initial;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+    }
     #title {
         top: 50%;
     }
