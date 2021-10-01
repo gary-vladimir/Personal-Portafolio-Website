@@ -401,4 +401,10 @@ section > h3 {
     #About > h3 {
         font-size: 15px;
     }
+    #hello {
+        font-size: 30px;
+    }
+    #name {
+        font-size: 25px;
+    }
 }
