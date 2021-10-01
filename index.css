@@ -302,6 +302,15 @@ section > h3 {
     #tp1 {
         right: -150px;
     }
+    nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 500px;
+        flex-wrap: wrap;
+        height: 100px;
+        justify-content: space-around;
+    }
 }
 @media (max-width: 900px) {
     #tp1,
@@ -315,5 +324,8 @@ section > h3 {
 @media (max-width: 730px) {
     section > h3 {
         width: 80%;
+    }
+    nav {
+        width: 300px;
     }
 }
