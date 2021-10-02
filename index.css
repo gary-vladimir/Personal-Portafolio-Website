@@ -267,6 +267,39 @@ section > h2 {
     left: -200px;
     bottom: 35%;
 }
+
+#container {
+    margin-top: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#container > div {
+    position: relative;
+}
+
+.contactInfo {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+
+    width: max-content;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+
+    background: #adbfff;
+    background: -webkit-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
+    background: -moz-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
+    background: linear-gradient(to bottom, #adbfff 0%, #92aaff65 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*ipad pro*/
 @media (max-width: 1630px) {
     .grid {
