@@ -296,7 +296,6 @@ form > h1 {
 label {
     font-family: Montserrat;
     font-size: 1em;
-    margin-bottom: -25px;
 }
 #smallInputs {
     display: flex;
@@ -307,14 +306,33 @@ label {
 #smallInputs > input {
     height: 30px;
 }
+#smallInputs > label {
+    margin-bottom: -45px;
+}
 #inputs {
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    height: 50%;
+    height: 60%;
 }
-#messageInput {
-    width: 45%;
+
+#textArea {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#textArea > label {
+    margin-bottom: 20px;
+}
+textarea {
+    height: 100%;
+}
+input,
+textarea {
+    background-color: rgba(255, 255, 255, 0.212);
+    outline: none;
+    border: none;
+    border-radius: 5px;
 }
 /*ipad pro*/
 @media (max-width: 1630px) {
