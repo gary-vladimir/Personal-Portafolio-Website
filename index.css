@@ -273,34 +273,11 @@ section > h2 {
     width: 380px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 55px;
-}
-#container > div {
-    position: relative;
-}
-
-.contactInfo {
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-
-    width: max-content;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 15px;
-
-    background: #adbfff;
-    background: -webkit-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
-    background: -moz-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
-    background: linear-gradient(to bottom, #adbfff 0%, #92aaff65 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
 }
 
 form {
+    color: white;
     background: rgba(158, 209, 255, 0.15);
     backdrop-filter: blur(80px);
     /* Note: backdrop-filter has minimal browser support */
@@ -309,14 +286,32 @@ form {
     height: 60vh;
     width: 65vh;
 }
+form > h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 1.3em;
+}
+label {
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-bottom: -25px;
+}
 #smallInputs {
     display: flex;
     flex-direction: column;
     width: 45%;
+    justify-content: space-between;
+}
+#smallInputs > input {
+    height: 30px;
 }
 #inputs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 25px;
+    height: 50%;
 }
 #messageInput {
     width: 45%;
