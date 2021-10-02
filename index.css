@@ -334,6 +334,25 @@ textarea {
     border: none;
     border-radius: 5px;
 }
+#submit {
+    text-align: center;
+    line-height: 35px;
+    font-family: Montserrat;
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* gradientGreen */
+
+    background: linear-gradient(90deg, #21ce7b 0%, #4095d2 100%);
+    border-radius: 20px;
+}
+#submit:hover {
+    cursor: pointer;
+}
 /*ipad pro*/
 @media (max-width: 1630px) {
     .grid {
