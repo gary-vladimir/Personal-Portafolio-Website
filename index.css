@@ -270,10 +270,10 @@ section > h2 {
 
 #container {
     margin-top: 40px;
-    width: 350px;
+    width: 380px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 #container > div {
     position: relative;
@@ -288,9 +288,9 @@ section > h2 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 
     background: #adbfff;
     background: -webkit-linear-gradient(to bottom, #adbfff 0%, #92aaff 100%);
@@ -300,6 +300,27 @@ section > h2 {
     -webkit-text-fill-color: transparent;
 }
 
+form {
+    background: rgba(158, 209, 255, 0.15);
+    backdrop-filter: blur(80px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 5px;
+    height: 60vh;
+    width: 65vh;
+}
+#smallInputs {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+#inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+#messageInput {
+    width: 45%;
+}
 /*ipad pro*/
 @media (max-width: 1630px) {
     .grid {
