@@ -280,6 +280,7 @@ form {
     color: white;
     background: rgba(158, 209, 255, 0.15);
     backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 5px;
@@ -526,7 +527,7 @@ input {
         font-size: 15px;
     }
     form {
-        width: 100vw;
+        width: 90vw;
     }
 }
 @media (max-width: 290px) {
