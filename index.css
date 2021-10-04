@@ -457,6 +457,34 @@ input {
     #About > h2 {
         font-size: 20px;
     }
+    #phoneContainer {
+        display: none;
+    }
+    #inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    #smallInputs {
+        width: 100%;
+    }
+    form {
+        height: 60vh;
+        width: 40vh;
+    }
+    #mailContainer,
+    #nameContainer {
+        margin-bottom: 15px;
+    }
+    #container {
+        width: 200px;
+    }
+    input {
+        height: 15px;
+        border-radius: 15px;
+    }
+    textarea {
+        height: 80%;
+    }
 }
 @media (max-width: 500px) {
     #hello {
@@ -473,14 +501,32 @@ input {
         font-size: 6vw;
         line-height: 8vw;
     }
+    #Contact > h2 {
+        font-size: 18px;
+    }
+    #container {
+        width: 300px;
+        transform: scale(0.5);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    form > h1 {
+        display: none;
+    }
 }
 @media (max-width: 376px) {
     .grid {
         width: 40vh;
         height: 70vh;
     }
+    textarea {
+        height: 15vh;
+    }
     #Contact > h2 {
-        font-size: 20px;
+        font-size: 15px;
+    }
+    form {
+        width: 100vw;
     }
 }
 @media (max-width: 290px) {
