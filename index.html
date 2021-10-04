@@ -108,12 +108,18 @@
                 <h1>Contact Form</h1>
                 <div id="inputs">
                     <div id="smallInputs">
-                        <label for="name">Your name</label>
-                        <input type="text" />
-                        <label for="name">Mail</label>
-                        <input type="text" />
-                        <label for="name">Phone</label>
-                        <input type="text" />
+                        <div id="nameContainer">
+                            <label for="name">Your name</label>
+                            <input type="text" />
+                        </div>
+                        <div id="mailContainer">
+                            <label for="mail">Mail</label>
+                            <input type="text" />
+                        </div>
+                        <div id="phoneContainer">
+                            <label for="phone" id="phoneLabel">Phone</label>
+                            <input type="text" id="phoneInput" />
+                        </div>
                     </div>
                     <div id="textArea">
                         <label for="message">Enter your message</label>
