@@ -32,7 +32,7 @@ html {
     background-size: cover;
 }
 #About {
-    background-image: url('./images/Astronaut\ coder\ Copia.svg');
+    background-image: url('./images/staticAstronautBig.svg');
     background-color: #110945;
 }
 .blur {
@@ -399,6 +399,11 @@ input {
 }
 
 /*ipad pro*/
+@media (max-height: 800px) {
+    #About {
+        background-image: url('./images/staticAstrounatNormal.svg');
+    }
+}
 @media (max-width: 1630px) {
     .grid {
         width: 85vh;
@@ -526,6 +531,9 @@ input {
     }
     textarea {
         height: 80%;
+    }
+    #About {
+        background-image: url('./images/staticAstronautSmall.svg');
     }
 }
 @media (max-width: 500px) {
