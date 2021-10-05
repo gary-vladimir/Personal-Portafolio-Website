@@ -203,22 +203,25 @@ section > h2 {
     align-items: center;
 }
 #one {
-    background-image: url('./images/project1Thumbnail.jpg');
+    background-image: url('./images/first_project.png');
 }
 #two {
-    background-image: url('./images/project2Thumbnail.jpg');
+    background-image: url('./images/second_project.png');
 }
 #three {
-    background-image: url('./images/project3Thumbnail.jpg');
+    background-image: url('./images/nasa.png');
 }
 #four {
-    background-image: url('./images/project4Thumbnail.jpg');
+    background-image: url('./images/todo.png');
+    background-position: center;
 }
 #five {
-    background-image: url('./images/project5Thumbnail.jpg');
+    background-image: url('./images/weatherApp.png');
+    background-position: center;
 }
 #six {
-    background-image: url('./images/project6Thumbnail.png');
+    background-image: url('./images/travelApp.png');
+    background-position: center;
 }
 
 .project:hover > .projectContent {
