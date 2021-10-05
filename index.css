@@ -31,6 +31,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#About {
+    background-image: url('./images/Astronaut\ coder\ Copia.svg');
+    background-color: #110945;
+}
 .blur {
     position: absolute;
     height: 10vh;
