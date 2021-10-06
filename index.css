@@ -172,9 +172,15 @@ section {
     margin-top: 15px;
     text-decoration: underline;
     text-underline-offset: 4px;
-    text-decoration-color: #92aaff;
+    text-decoration-color: #41c9ff;
 }
-#blogLink > h2,
+#blogLink > h2 {
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 22px;
+    color: #41c9ff;
+}
 section > h2 {
     margin-top: 0px;
     font-family: Montserrat;
