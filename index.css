@@ -23,6 +23,13 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+section > i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 35px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 5;
+}
 .section {
     height: 100vh;
     background: linear-gradient(180deg, #151361 0%, #110945 100%);
