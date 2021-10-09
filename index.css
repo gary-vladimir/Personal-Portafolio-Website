@@ -327,6 +327,7 @@ section > h2 {
 }
 
 #container {
+    z-index: 10;
     margin-top: 3vh;
     width: 380px;
     display: flex;
@@ -335,6 +336,7 @@ section > h2 {
 }
 
 form {
+    z-index: 2;
     color: white;
     background: rgba(158, 209, 255, 0.15);
     backdrop-filter: blur(80px);
@@ -416,6 +418,47 @@ input {
     height: 35px;
 }
 
+#Contact > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#cp1_contact {
+    z-index: 10;
+    transform: translate(-450px, 250px);
+}
+#tp1_contact {
+    z-index: 10;
+    transform: translate(250px, 250px);
+}
+#cp2_contact {
+    transform: translate(150px, -300px);
+    z-index: 0;
+}
+#rb2_contact {
+    z-index: 0;
+    transform: translate(-450px, -250px);
+}
+#tp2_contact {
+    z-index: 0;
+    transform: translate(350px, 80px);
+}
+#tr_contact {
+    z-index: 0;
+    transform: translate(-450px, -50px);
+}
+#cg_contact {
+    z-index: 0;
+    transform: translate(350px, 200px);
+}
+#cb_contact {
+    z-index: 0;
+    transform: translate(350px, -20px);
+}
+#tp3_contact {
+    z-index: 0;
+    transform: translate(-550px, 100px);
+}
 /*ipad pro*/
 @media (max-height: 800px) {
     #About {
