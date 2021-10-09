@@ -599,7 +599,7 @@ input {
         margin-bottom: 15px;
     }
     #container {
-        width: 200px;
+        width: 300px;
     }
     input {
         height: 15px;
@@ -631,8 +631,8 @@ input {
         font-size: 18px;
     }
     #container {
-        width: 300px;
-        transform: scale(0.5);
+        width: 90vw;
+        flex-wrap: wrap;
         margin-top: 5px;
         margin-bottom: 5px;
     }
