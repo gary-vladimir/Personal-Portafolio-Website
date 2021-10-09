@@ -338,7 +338,7 @@ section > h2 {
 form {
     z-index: 2;
     color: white;
-    background: rgba(145, 202, 255, 0.3);
+    background: #8a99da48;
     backdrop-filter: blur(80px);
     -webkit-backdrop-filter: blur(80px);
     /* Note: backdrop-filter has minimal browser support */
