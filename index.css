@@ -338,7 +338,7 @@ section > h2 {
 form {
     z-index: 2;
     color: white;
-    background: rgba(158, 209, 255, 0.15);
+    background: rgba(145, 202, 255, 0.3);
     backdrop-filter: blur(80px);
     -webkit-backdrop-filter: blur(80px);
     /* Note: backdrop-filter has minimal browser support */
@@ -422,41 +422,33 @@ input {
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 1;
 }
 #cp1_contact {
-    z-index: 10;
     transform: translate(-450px, 250px);
 }
 #tp1_contact {
-    z-index: 10;
     transform: translate(250px, 250px);
 }
 #cp2_contact {
     transform: translate(150px, -300px);
-    z-index: 0;
 }
 #rb2_contact {
-    z-index: 0;
     transform: translate(-450px, -250px);
 }
 #tp2_contact {
-    z-index: 0;
     transform: translate(350px, 80px);
 }
 #tr_contact {
-    z-index: 0;
     transform: translate(-450px, -50px);
 }
 #cg_contact {
-    z-index: 0;
     transform: translate(350px, 200px);
 }
 #cb_contact {
-    z-index: 0;
     transform: translate(350px, -20px);
 }
 #tp3_contact {
-    z-index: 0;
     transform: translate(-550px, 100px);
 }
 /*ipad pro*/
