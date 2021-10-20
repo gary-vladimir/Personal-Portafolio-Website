@@ -326,10 +326,31 @@ section > h2 {
     bottom: 35%;
 }
 
+/* contact section */
+#container > a > img {
+    width: 30%;
+}
+#container > a {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(50px);
+    border: 1px solid #7fb2fa70;
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#container > a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 #container {
     margin-top: 3vh;
-    width: 380px;
+    width: 50vh;
+    height: 70vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 3vh;
 }
@@ -481,9 +502,7 @@ section > h2 {
     #nameContainer {
         margin-bottom: 15px;
     }
-    #container {
-        width: 300px;
-    }
+
     input {
         height: 15px;
         border-radius: 15px;
@@ -515,9 +534,6 @@ section > h2 {
     }
     #container {
         width: 90vw;
-        flex-wrap: wrap;
-        margin-top: 5px;
-        margin-bottom: 5px;
     }
     form > h1 {
         display: none;
