@@ -327,7 +327,6 @@ section > h2 {
 }
 
 #container {
-    z-index: 10;
     margin-top: 3vh;
     width: 380px;
     display: flex;
@@ -335,122 +334,6 @@ section > h2 {
     margin-bottom: 3vh;
 }
 
-form {
-    z-index: 2;
-    color: white;
-    background: #8a99da48;
-    backdrop-filter: blur(80px);
-    -webkit-backdrop-filter: blur(80px);
-    /* Note: backdrop-filter has minimal browser support */
-
-    border-radius: 5px;
-    height: 60vh;
-    width: 65vh;
-    position: relative;
-}
-form > h1 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    margin-left: 35px;
-    margin-top: 35px;
-    font-size: 1.3em;
-}
-label {
-    font-family: Montserrat;
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-#mailContainer,
-#phoneContainer,
-#nameContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-#smallInputs {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 35px;
-}
-#inputs {
-    display: flex;
-    height: 60%;
-    padding-left: 35px;
-    padding-right: 35px;
-    margin-top: 35px;
-}
-textarea {
-    width: 100%;
-    height: 92%;
-    margin-top: 10px;
-}
-input,
-textarea {
-    background-color: rgba(255, 255, 255, 0.212);
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
-#submit {
-    text-align: center;
-    line-height: 35px;
-    font-family: Montserrat;
-    position: absolute;
-    width: 150px;
-    height: 35px;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-
-    /* gradientGreen */
-
-    background: linear-gradient(90deg, #21ce7b 0%, #4095d2 100%);
-    border-radius: 20px;
-}
-#submit:hover {
-    cursor: pointer;
-}
-input {
-    height: 35px;
-}
-
-#Contact > img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-}
-#cp1_contact {
-    transform: translate(-450px, 250px);
-}
-#tp1_contact {
-    transform: translate(250px, 250px);
-}
-#cp2_contact {
-    transform: translate(150px, -300px);
-}
-#rb2_contact {
-    transform: translate(-450px, -250px);
-}
-#tp2_contact {
-    transform: translate(350px, 80px);
-}
-#tr_contact {
-    transform: translate(-450px, -50px);
-}
-#cg_contact {
-    transform: translate(350px, 200px);
-}
-#cb_contact {
-    transform: translate(350px, -20px);
-}
-#tp3_contact {
-    transform: translate(-550px, 100px);
-}
 /*ipad pro*/
 @media (max-height: 800px) {
     #About {
